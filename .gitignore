@@ -11,16 +11,12 @@
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Compiled Dynamic Libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
+# Compiled Static Libraries
 *.lai
 *.la
 *.a
@@ -30,4 +26,17 @@
 *.exe
 *.out
 *.app
-/.idea
+
+# CMake build directories
+build/
+build-*/
+cmake-build-*/
+
+# CLion
+.idea/
+
+# Temporary files
+*.save
+*.log
+core
+core.*
